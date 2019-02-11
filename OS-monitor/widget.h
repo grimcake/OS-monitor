@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include "form1.h"
+#include "form2.h"
 
 namespace Ui {
 class Widget;
@@ -19,6 +20,7 @@ public:
 private:
     Ui::Widget *ui;
     Form1 *form1;
+    Form2 *form2;
 };
 
 #endif // WIDGET_H
