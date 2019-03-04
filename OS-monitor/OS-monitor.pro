@@ -15,12 +15,15 @@ TEMPLATE = app
 SOURCES += main.cpp\
         widget.cpp \
     form1.cpp \
-    form2.cpp
+    form2.cpp \
+    form3.cpp
 
 HEADERS  += widget.h \
     form1.h \
-    form2.h
+    form2.h \
+    form3.h
 
 FORMS    += widget.ui \
     form1.ui \
-    form2.ui
+    form2.ui \
+    form3.ui
